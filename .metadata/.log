@@ -1,0 +1,348 @@
+!SESSION 2021-06-24 20:53:40.038 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-06-24 20:56:36.341
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-24 20:56:36.341
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77db231c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@60b4d934,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-06-24 20:56:50.606
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Pessoal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2021-06-24 20:57:30.661
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-06-24 21:03:09.896 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-06-24 21:03:19.746
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-06-24 21:03:19.746
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6ba355e4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7b1559f1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-06-24 21:03:29.595
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Pessoal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Activator 1 0 2021-06-24 21:44:20.166
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-06-24 21:44:23.560
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY org.eclipse.ui 2 2 2021-06-24 21:44:24.704
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-06-24 21:44:24.965
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY org.eclipse.m2e.core 4 -1 2021-06-24 21:44:26.177
+!MESSAGE Could not lookup required component
+!STACK 0
+org.codehaus.plexus.component.repository.exception.ComponentLookupException: java.util.NoSuchElementException
+      role: org.apache.maven.execution.MavenExecutionRequestPopulator
+  roleHint: 
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:267)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:249)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lookup(MavenImpl.java:1292)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.createExecutionRequest(MavenImpl.java:238)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.newExecutionRequest(MavenExecutionContext.java:94)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:127)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374)
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.NoSuchElementException
+	at java.base/java.util.Collections$EmptyIterator.next(Collections.java:4277)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
+	... 10 more
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-06-24 21:44:26.212
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2021-06-30 23:59:46.891 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-07-01 00:00:01.919
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2021-07-01 00:00:28.731
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-01 00:00:28.731
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3d8fd373,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2dcd451f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-01 00:01:02.120
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Pessoal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Activator 1 0 2021-07-01 00:01:18.396
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:02:33.815
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:18.951
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:24.511
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:25.604
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:26.562
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:26.745
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:28.326
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:32.448
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:32.670
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:33.200
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:33.779
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:33.782
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:34.141
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:34.312
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:34.629
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:34.631
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:35.057
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:35.162
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:36.424
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:36.428
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:36.847
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:36.875
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:38.549
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:38.551
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:38.986
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:03:38.987
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-01 00:05:30.128
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:05:30.129
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-01 00:05:30.762
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-01 00:05:30.796
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:05:31.252
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:05:31.288
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-01 00:05:31.496
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:07:11.185
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:07:11.187
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@27355f93[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:07:11.270
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:07:12.578
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-07-01 00:07:12.747
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:07:12.750
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:07:45.678
+!MESSAGE Boot LS startup time from start to initialized: 34367ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:07:47.108
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pNxsHqfDisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:07:47.191
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:07:47.201
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:07:47.202
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:07:47.203
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:07:47.204
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pNxsHqfD => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:07:47.219
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:07:47.227
+!MESSAGE buffering callback sts4.classpath.pNxsHqfD API-EstacaoMeteorologica false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:07:47.228
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:07:47.238
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:07:47.245
+!MESSAGE buffering callback sts4.classpath.pNxsHqfD teste1 false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:07:47.247
+!MESSAGE executing callback sts4.classpath.pNxsHqfD 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:07:49.262
+!MESSAGE executing callback sts4.classpath.pNxsHqfD FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-07-01 00:07:49.263
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 1 0 2021-07-01 00:07:59.509
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:07:59.510
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-01 00:08:00.280
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-01 00:08:00.399
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:08:05.518
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pNxsHqfD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:08:05.519
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.pNxsHqfD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:08:05.521
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-01 00:08:05.522
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.pNxsHqfD => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-07-01 00:08:06.774
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
