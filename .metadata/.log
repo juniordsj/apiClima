@@ -346,3 +346,2574 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.ui 2 2 2021-07-01 00:08:06.774
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-07-02 14:04:34.122 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-07-02 14:05:18.070
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-02 14:05:18.070
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5dd6f517,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e01b195,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-02 14:05:53.574
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-02 14:05:53.575
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1742e0eb[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-02 14:05:53.656
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-02 14:05:55.055
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-07-02 14:06:01.227
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-02 14:06:01.228
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-02 14:06:01.606
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Pessoal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-02 14:06:57.880
+!MESSAGE Boot LS startup time from start to initialized: 64181ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-02 14:07:00.465
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lKgBQjFsisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-02 14:07:01.157
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-02 14:07:01.202
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-02 14:07:01.204
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-02 14:07:01.205
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-02 14:07:01.206
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lKgBQjFs => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-02 14:07:06.242
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-02 14:07:06.787
+!MESSAGE buffering callback sts4.classpath.lKgBQjFs API-EstacaoMeteorologica false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-02 14:07:06.789
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-02 14:07:07.430
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-02 14:07:07.441
+!MESSAGE buffering callback sts4.classpath.lKgBQjFs teste1 false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-02 14:07:07.442
+!MESSAGE executing callback sts4.classpath.lKgBQjFs 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-02 14:07:09.463
+!MESSAGE executing callback sts4.classpath.lKgBQjFs FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-07-02 14:07:09.465
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-02 14:07:40.872
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-07-05 15:50:52.665
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-05 15:50:52.917
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-05 15:51:17.071
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-05 15:51:19.612
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-05 15:51:23.003
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-05 15:51:23.006
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY org.eclipse.ui 2 2 2021-07-05 15:51:30.888
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.core.resources 4 2 2021-07-05 15:51:33.937
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not lookup required component
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lookup(MavenImpl.java:1294)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.populateDefaults(MavenImpl.java:1189)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:129)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:197)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.codehaus.plexus.component.repository.exception.ComponentLookupException: java.util.NoSuchElementException
+      role: org.apache.maven.execution.MavenExecutionRequestPopulator
+  roleHint: 
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:267)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:249)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lookup(MavenImpl.java:1292)
+	... 17 more
+Caused by: java.util.NoSuchElementException
+	at java.base/java.util.Collections$EmptyIterator.next(Collections.java:4277)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
+	... 20 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-07-05 15:51:33.977
+!MESSAGE Could not lookup required component
+!STACK 0
+org.codehaus.plexus.component.repository.exception.ComponentLookupException: java.util.NoSuchElementException
+      role: org.apache.maven.execution.MavenExecutionRequestPopulator
+  roleHint: 
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:267)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:249)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lookup(MavenImpl.java:1292)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.populateDefaults(MavenImpl.java:1189)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:129)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:197)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.NoSuchElementException
+	at java.base/java.util.Collections$EmptyIterator.next(Collections.java:4277)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
+	... 20 more
+!SUBENTRY 1 org.eclipse.m2e.core 4 -1 2021-07-05 15:51:33.978
+!MESSAGE Could not lookup required component
+!STACK 0
+org.codehaus.plexus.component.repository.exception.ComponentLookupException: java.util.NoSuchElementException
+      role: org.apache.maven.execution.MavenExecutionRequestPopulator
+  roleHint: 
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:267)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:255)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:249)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lookup(MavenImpl.java:1292)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.populateDefaults(MavenImpl.java:1189)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:129)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:101)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:88)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:197)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:846)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:229)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:277)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:330)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:333)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:385)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:406)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.util.NoSuchElementException
+	at java.base/java.util.Collections$EmptyIterator.next(Collections.java:4277)
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:263)
+	... 20 more
+!SESSION 2021-07-05 19:48:22.791 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-07-05 19:49:23.888
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-05 19:49:23.888
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2dcd451f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@342394b3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-05 19:50:08.281
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-05 19:50:08.282
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@70a2dc2[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-05 19:50:08.304
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-05 19:50:09.485
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-07-05 19:50:15.207
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-05 19:50:15.209
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-05 19:50:15.792
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Pessoal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-05 19:50:59.569
+!MESSAGE Boot LS startup time from start to initialized: 51219ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-05 19:51:00.375
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vbBjxQNBisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-05 19:51:00.449
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-05 19:51:00.486
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-05 19:51:00.488
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-05 19:51:00.489
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.vbBjxQNB => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-05 19:51:00.492
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-05 19:51:01.901
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-05 19:51:01.940
+!MESSAGE buffering callback sts4.classpath.vbBjxQNB API-EstacaoMeteorologica false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-05 19:51:01.942
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-05 19:51:02.407
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-05 19:51:02.416
+!MESSAGE buffering callback sts4.classpath.vbBjxQNB teste1 false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-05 19:51:02.419
+!MESSAGE executing callback sts4.classpath.vbBjxQNB 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-05 19:51:04.450
+!MESSAGE executing callback sts4.classpath.vbBjxQNB FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-07-05 19:51:04.452
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-07-05 19:59:12.118
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.asJavaProposals(LSJavaCompletionProposalComputer.java:91)
+	at org.eclipse.lsp4e.jdt.LSJavaCompletionProposalComputer.computeCompletionProposals(LSJavaCompletionProposalComputer.java:59)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:348)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:340)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:289)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$10(AsyncCompletionProposalPopup.java:352)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.lambda$9(AsyncCompletionProposalPopup.java:351)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1764)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:295)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.jface 2 0 2021-07-05 20:24:55.349
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-05 20:24:55.351
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9270591,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@12145061,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY Activator 1 0 2021-07-05 20:25:00.949
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-05 20:25:00.950
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-05 23:38:02.407
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-05 23:38:02.439
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY org.eclipse.ui 2 2 2021-07-05 23:38:28.438
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.ui 4 0 2021-07-05 23:38:28.446
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.IllegalArgumentException: Argument cannot be null
+	at org.eclipse.swt.SWT.error(SWT.java:4874)
+	at org.eclipse.swt.SWT.error(SWT.java:4808)
+	at org.eclipse.swt.SWT.error(SWT.java:4779)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1262)
+	at org.eclipse.swt.widgets.Display.removeFilter(Display.java:3926)
+	at org.eclipse.ui.internal.Workbench.shutdown(Workbench.java:2968)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1124)
+	at org.eclipse.ui.internal.Workbench.lambda$4(Workbench.java:1392)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1392)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1368)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1716)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$5(WorkbenchWindow.java:1743)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1743)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1752)
+	at org.eclipse.ui.internal.WorkbenchWindow.lambda$2(WorkbenchWindow.java:503)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.lambda$4(WBWRenderer.java:578)
+	at org.eclipse.swt.events.ShellListener$2.shellClosed(ShellListener.java:102)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:102)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1067)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:269)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1552)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4762)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:508)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4861)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1480)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2263)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4930)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+!SESSION 2021-07-08 14:41:00.485 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-07-08 14:41:41.689
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-08 14:41:41.689
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@61ce238e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@49ea13b6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:42:00.317
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:42:00.319
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@2c6ed95a[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:42:00.416
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:42:01.713
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.jface 2 0 2021-07-08 14:42:03.565
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-08 14:42:03.565
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3e7ac200,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@222b4ab1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-08 14:42:05.406
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Pessoal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Activator 1 0 2021-07-08 14:42:28.229
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 14:42:28.243
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:42:44.858
+!MESSAGE Boot LS startup time from start to initialized: 44282ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:42:45.743
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.CVGfeDjRisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:42:45.843
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:42:45.859
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:42:45.861
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:42:45.862
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.CVGfeDjR => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:42:45.863
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:42:46.632
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:42:46.647
+!MESSAGE buffering callback sts4.classpath.CVGfeDjR API-EstacaoMeteorologica false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:42:46.649
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:42:46.860
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:42:46.886
+!MESSAGE buffering callback sts4.classpath.CVGfeDjR teste1 false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:42:46.888
+!MESSAGE executing callback sts4.classpath.CVGfeDjR 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:42:48.922
+!MESSAGE executing callback sts4.classpath.CVGfeDjR FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-07-08 14:42:48.923
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 1 0 2021-07-08 14:42:49.282
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 14:42:57.771
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 14:42:57.773
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 14:43:06.919
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 14:43:06.920
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:43:10.307
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CVGfeDjR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:43:10.308
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.CVGfeDjR
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:43:10.309
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 14:43:10.310
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.CVGfeDjR => OK
+
+!ENTRY org.eclipse.ui 4 4 2021-07-08 14:45:23.059
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.findNext: {ActionHandler(org.eclipse.ui.texteditor.FindNextAction@10d2411f)} vs {ActionHandler(org.eclipse.ui.texteditor.FindNextAction@10d2411f)} in: PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext
+!STACK 0
+java.lang.IllegalStateException: Conflicting handlers: {[ActionHandler(org.eclipse.ui.texteditor.FindNextAction@10d2411f),  for 'org.eclipse.ui.edit.findNext',  in PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext, activeWhen=ActivePartExpression(org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor@2f193a75), active=true, sourcePriority=1048576, participating=true]} vs {[ActionHandler(org.eclipse.ui.texteditor.FindNextAction@10d2411f),  for 'org.eclipse.ui.edit.findNext',  in PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext, activeWhen=ActivePartExpression(org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor@2f193a75), active=true, sourcePriority=1048576, participating=true]} in: PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService$HandlerSelectionFunction.compute(LegacyHandlerService.java:145)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:70)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:271)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:237)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.lookUpHandler(HandlerServiceImpl.java:103)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.handlerChanged(E4HandlerProxy.java:114)
+	at org.eclipse.core.commands.AbstractHandler.fireHandlerChanged(AbstractHandler.java:77)
+	at org.eclipse.jface.commands.ActionHandler.lambda$0(ActionHandler.java:81)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:52)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:75)
+	at org.eclipse.jface.action.Action.setEnabled(Action.java:541)
+	at org.eclipse.ui.texteditor.FindNextAction.update(FindNextAction.java:238)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.updateAction(AbstractTextEditor.java:5357)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.updateContentDependentActions(AbstractTextEditor.java:5441)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextListener.lambda$0(AbstractTextEditor.java:615)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.ui 4 4 2021-07-08 14:45:23.063
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.findPrevious: {ActionHandler(org.eclipse.ui.texteditor.FindNextAction@7c53d3c)} vs {ActionHandler(org.eclipse.ui.texteditor.FindNextAction@7c53d3c)} in: PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext
+!STACK 0
+java.lang.IllegalStateException: Conflicting handlers: {[ActionHandler(org.eclipse.ui.texteditor.FindNextAction@7c53d3c),  for 'org.eclipse.ui.edit.findPrevious',  in PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext, activeWhen=ActivePartExpression(org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor@2f193a75), active=true, sourcePriority=1048576, participating=true]} vs {[ActionHandler(org.eclipse.ui.texteditor.FindNextAction@7c53d3c),  for 'org.eclipse.ui.edit.findPrevious',  in PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext, activeWhen=ActivePartExpression(org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor@2f193a75), active=true, sourcePriority=1048576, participating=true]} in: PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService$HandlerSelectionFunction.compute(LegacyHandlerService.java:145)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:70)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:271)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:237)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.lookUpHandler(HandlerServiceImpl.java:103)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.handlerChanged(E4HandlerProxy.java:114)
+	at org.eclipse.core.commands.AbstractHandler.fireHandlerChanged(AbstractHandler.java:77)
+	at org.eclipse.jface.commands.ActionHandler.lambda$0(ActionHandler.java:81)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:52)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:75)
+	at org.eclipse.jface.action.Action.setEnabled(Action.java:541)
+	at org.eclipse.ui.texteditor.FindNextAction.update(FindNextAction.java:238)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.updateAction(AbstractTextEditor.java:5357)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.updateContentDependentActions(AbstractTextEditor.java:5441)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextListener.lambda$0(AbstractTextEditor.java:615)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.ui 4 4 2021-07-08 14:45:23.066
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.findIncremental: {ActionHandler(org.eclipse.ui.texteditor.IncrementalFindAction@2c9b96af)} vs {ActionHandler(org.eclipse.ui.texteditor.IncrementalFindAction@2c9b96af)} in: PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext
+!STACK 0
+java.lang.IllegalStateException: Conflicting handlers: {[ActionHandler(org.eclipse.ui.texteditor.IncrementalFindAction@2c9b96af),  for 'org.eclipse.ui.edit.findIncremental',  in PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext, activeWhen=ActivePartExpression(org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor@2f193a75), active=true, sourcePriority=1048576, participating=true]} vs {[ActionHandler(org.eclipse.ui.texteditor.IncrementalFindAction@2c9b96af),  for 'org.eclipse.ui.edit.findIncremental',  in PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext, activeWhen=ActivePartExpression(org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor@2f193a75), active=true, sourcePriority=1048576, participating=true]} in: PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService$HandlerSelectionFunction.compute(LegacyHandlerService.java:145)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:70)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:271)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:237)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.lookUpHandler(HandlerServiceImpl.java:103)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.handlerChanged(E4HandlerProxy.java:114)
+	at org.eclipse.core.commands.AbstractHandler.fireHandlerChanged(AbstractHandler.java:77)
+	at org.eclipse.jface.commands.ActionHandler.lambda$0(ActionHandler.java:81)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:52)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:75)
+	at org.eclipse.jface.action.Action.setEnabled(Action.java:541)
+	at org.eclipse.ui.texteditor.IncrementalFindAction.update(IncrementalFindAction.java:118)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.updateAction(AbstractTextEditor.java:5357)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.updateContentDependentActions(AbstractTextEditor.java:5441)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextListener.lambda$0(AbstractTextEditor.java:615)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.ui 4 4 2021-07-08 14:45:23.068
+!MESSAGE Conflicting handlers for org.eclipse.ui.edit.findIncrementalReverse: {ActionHandler(org.eclipse.ui.texteditor.IncrementalFindAction@340c211e)} vs {ActionHandler(org.eclipse.ui.texteditor.IncrementalFindAction@340c211e)} in: PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext
+!STACK 0
+java.lang.IllegalStateException: Conflicting handlers: {[ActionHandler(org.eclipse.ui.texteditor.IncrementalFindAction@340c211e),  for 'org.eclipse.ui.edit.findIncrementalReverse',  in PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext, activeWhen=ActivePartExpression(org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor@2f193a75), active=true, sourcePriority=1048576, participating=true]} vs {[ActionHandler(org.eclipse.ui.texteditor.IncrementalFindAction@340c211e),  for 'org.eclipse.ui.edit.findIncrementalReverse',  in PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext, activeWhen=ActivePartExpression(org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor@2f193a75), active=true, sourcePriority=1048576, participating=true]} in: PartImpl (org.eclipse.e4.ui.compatibility.editor)  removeOnHide org.eclipse.mylyn.wikitext.ui.editor.markupEditorContext
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService$HandlerSelectionFunction.compute(LegacyHandlerService.java:145)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:70)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:271)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:237)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.lookUpHandler(HandlerServiceImpl.java:103)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.handlerChanged(E4HandlerProxy.java:114)
+	at org.eclipse.core.commands.AbstractHandler.fireHandlerChanged(AbstractHandler.java:77)
+	at org.eclipse.jface.commands.ActionHandler.lambda$0(ActionHandler.java:81)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:52)
+	at org.eclipse.jface.action.AbstractAction.firePropertyChange(AbstractAction.java:75)
+	at org.eclipse.jface.action.Action.setEnabled(Action.java:541)
+	at org.eclipse.ui.texteditor.IncrementalFindAction.update(IncrementalFindAction.java:118)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.updateAction(AbstractTextEditor.java:5357)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.updateContentDependentActions(AbstractTextEditor.java:5441)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextListener.lambda$0(AbstractTextEditor.java:615)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.ui 2 2 2021-07-08 14:45:48.512
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-07-08 14:54:15.921 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-07-08 14:54:23.181
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-08 14:54:23.181
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@49ea13b6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c02b3cb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2021-07-08 14:54:34.365
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-08 14:54:34.365
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9c88323,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d4bdb75,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-08 14:54:35.252
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Pessoal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Activator 1 0 2021-07-08 14:54:39.505
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 14:54:39.539
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 14:54:44.156
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 14:58:32.087
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 14:58:32.091
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 14:58:32.670
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 14:58:32.679
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:01:13.619
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:01:13.621
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:01:15.694
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:01:15.701
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:01:17.491
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:01:17.493
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:01:53.588
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:01:53.589
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:02:01.070
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:02:01.071
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:02:01.543
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:02:01.558
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:02.466
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:02.468
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1ad1bf7a[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:02.500
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:03.077
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY Activator 1 0 2021-07-08 15:02:03.162
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:02:03.163
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:02:03.539
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:02:03.994
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:02:15.513
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:02:15.517
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:02:16.074
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:02:16.086
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:02:16.830
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:02:16.845
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:29.736
+!MESSAGE Boot LS startup time from start to initialized: 27175ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:30.196
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZjMtbpmGisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:30.254
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:30.257
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:30.259
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:30.260
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZjMtbpmG => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:30.261
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:30.267
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:30.268
+!MESSAGE buffering callback sts4.classpath.ZjMtbpmG ApiAvaliacaoRonaldo false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:30.269
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:30.376
+!MESSAGE classpath=94 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:30.383
+!MESSAGE buffering callback sts4.classpath.ZjMtbpmG API-EstacaoMeteorologica false 94
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:30.384
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:30.404
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:30.411
+!MESSAGE buffering callback sts4.classpath.ZjMtbpmG teste1 false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:30.412
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:02:31.660
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:03:04.418
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:03:04.419
+!MESSAGE buffering callback sts4.classpath.ZjMtbpmG ApiAvaliacaoRonaldo true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:03:04.420
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:03:04.433
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-07-08 15:03:04.452
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:03:04.466
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:08.567
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:08.572
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:08.816
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:08.820
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:08.977
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:08.982
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:23.396
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:23.405
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:23.572
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:23.595
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:23.747
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:23.751
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:24.204
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:24.218
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:24.327
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:24.535
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:24.536
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:24.537
+!MESSAGE buffering callback sts4.classpath.ZjMtbpmG AvaliacaoRonaldo false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:24.538
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG 1 batched events
+
+!ENTRY Activator 1 0 2021-07-08 15:05:24.543
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:24.545
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:24.564
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-07-08 15:05:25.188
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:25.198
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:25.422
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:25.433
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:25.474
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:25.583
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-07-08 15:05:25.587
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:25.589
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:25.602
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:25.610
+!MESSAGE buffering callback sts4.classpath.ZjMtbpmG AvaliacaoRonaldo false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:25.611
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG 1 batched events
+
+!ENTRY Activator 1 0 2021-07-08 15:05:25.704
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:25.936
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-07-08 15:05:26.519
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:26.520
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:26.536
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:26.833
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:26.866
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:26.877
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:26.998
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:30.604
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:30.607
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:30.616
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:31.640
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:31.642
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:31.649
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:32.979
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-07-08 15:05:32.982
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:32.984
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:32.995
+!MESSAGE classpath=93 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:33.003
+!MESSAGE buffering callback sts4.classpath.ZjMtbpmG AvaliacaoRonaldo false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:33.004
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG 1 batched events
+
+!ENTRY Activator 1 0 2021-07-08 15:05:33.009
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:33.052
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-07-08 15:05:34.760
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:34.802
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:34.804
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:36.220
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:36.221
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY Activator 1 0 2021-07-08 15:05:36.222
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:36.239
+!MESSAGE classpath=93 entries
+
+!ENTRY Activator 1 0 2021-07-08 15:05:36.241
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:36.248
+!MESSAGE buffering callback sts4.classpath.ZjMtbpmG AvaliacaoRonaldo false 93
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:36.249
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 15:05:36.561
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-07-08 15:05:37.198
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:37.254
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:37.282
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:38.633
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:38.648
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:38.740
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:39.003
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:39.109
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:39.117
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:39.233
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:39.416
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:39.676
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:39.822
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:39.910
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:40.950
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:40.963
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:05:40.968
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY org.eclipse.ui 2 2 2021-07-08 15:06:35.817
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY Activator 1 0 2021-07-08 15:11:01.385
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:11:01.390
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:11:01.391
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:11:02.434
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:11:02.454
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:11:02.820
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:11:11.132
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:11:11.150
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:11:11.152
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:11:11.510
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:11:11.514
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:11:11.527
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:11:23.920
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:11:23.921
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:11:23.923
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:11:24.173
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:11:24.174
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:11:24.204
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:12:17.009
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:12:17.010
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:12:17.011
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:12:17.609
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:12:17.613
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:12:17.703
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:12:51.715
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:12:51.717
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:12:51.719
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:12:52.422
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:12:52.486
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:12:52.488
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:12:54.687
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:12:54.689
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:12:54.696
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:12:54.907
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:12:54.908
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:12:54.940
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:13:32.466
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:13:32.468
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:13:32.476
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:13:33.094
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:13:33.095
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:13:33.104
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:13:48.498
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:13:48.499
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:13:48.501
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:13:49.140
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:13:49.141
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:13:49.143
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:13:52.323
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:13:52.324
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:13:52.325
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:13:52.973
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:13:52.974
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:13:52.980
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:14:00.692
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:14:00.693
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:14:00.696
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:14:01.342
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:14:01.348
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:14:01.358
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:14:24.065
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:14:24.067
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:14:24.068
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:14:24.715
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:14:24.717
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:14:24.720
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:10.435
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:10.436
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:10.437
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:10.610
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:10.614
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:10.632
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:25.601
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:25.603
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:25.604
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:26.251
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:26.254
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:26.284
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:36.936
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:36.938
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:36.939
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:37.586
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:37.596
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:37.615
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:41.219
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:41.221
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:41.223
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:41.852
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:41.852
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:41.866
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:57.284
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:57.286
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:57.289
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:57.943
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:57.955
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:15:58.035
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:16:09.618
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:16:09.620
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:16:09.621
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:16:10.262
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:16:10.263
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:16:10.276
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:16:45.792
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:16:45.796
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:16:45.807
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:16:45.967
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:16:45.968
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:16:45.971
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:17:07.520
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:17:07.521
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:17:07.522
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:17:08.351
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:17:08.353
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:17:08.368
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:25:10.665
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:25:10.668
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:25:10.670
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:25:11.350
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:25:11.409
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:25:11.458
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:25:27.113
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:25:27.114
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:25:27.115
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:25:27.764
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:25:27.879
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:25:27.887
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:26:08.952
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:26:08.954
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:26:08.956
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:26:09.682
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:26:09.793
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:26:09.870
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:28:48.853
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:28:48.854
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:28:48.855
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:28:49.608
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:28:49.621
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:28:49.712
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:28:52.612
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:28:52.614
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:28:52.616
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:28:53.331
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:28:53.436
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:28:53.450
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:28:55.292
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:28:55.294
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:28:55.295
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:28:55.941
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:28:55.990
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:28:56.002
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:29:00.540
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:29:00.542
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:29:00.545
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 15:29:01.195
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 15:29:01.202
+!MESSAGE Has main method computation for project 'teste1'
+
+!ENTRY Activator 1 0 2021-07-08 15:29:01.243
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 16:14:15.263
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 16:14:15.441
+!MESSAGE buffering callback sts4.classpath.ZjMtbpmG teste1 true 0
+
+!ENTRY Activator 1 0 2021-07-08 16:14:15.469
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:14:15.472
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 16:14:15.587
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 16:14:17.739
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-07-08 16:14:17.740
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-08 16:14:32.905
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-07-08 16:20:35.046
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:20:35.049
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:20:35.889
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:20:35.909
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:32:28.535
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:32:28.565
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:32:29.166
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:32:29.177
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY org.eclipse.jdt.ui 4 4 2021-07-08 16:36:35.137
+!MESSAGE An error occurred while computing quick fixes. Check log for details.
+!SUBENTRY 1 org.eclipse.jdt.ui 4 0 2021-07-08 16:36:35.143
+!MESSAGE Exception while processing quick fixes or quick assists
+!SUBENTRY 2 org.eclipse.jdt.ui 4 4 2021-07-08 16:36:35.143
+!MESSAGE Exception while processing quick fixes or quick assists
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.jdt.internal.codeassist.CompletionEngine.checkCancel(CompletionEngine.java:1948)
+	at org.eclipse.jdt.internal.codeassist.CompletionEngine.acceptTypes(CompletionEngine.java:1653)
+	at org.eclipse.jdt.internal.codeassist.CompletionEngine.findTypesAndPackages(CompletionEngine.java:11410)
+	at org.eclipse.jdt.internal.codeassist.CompletionEngine.completionOnMarkerAnnotationName(CompletionEngine.java:3016)
+	at org.eclipse.jdt.internal.codeassist.CompletionEngine.complete(CompletionEngine.java:2016)
+	at org.eclipse.jdt.internal.codeassist.CompletionEngine.complete(CompletionEngine.java:2303)
+	at org.eclipse.jdt.internal.core.Openable.codeComplete(Openable.java:136)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeComplete(CompilationUnit.java:367)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeComplete(CompilationUnit.java:357)
+	at org.eclipse.jdt.internal.ui.text.correction.SimilarElementsRequestor.process(SimilarElementsRequestor.java:168)
+	at org.eclipse.jdt.internal.ui.text.correction.SimilarElementsRequestor.findSimilarElement(SimilarElementsRequestor.java:113)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.addSimilarTypeProposals(UnresolvedElementsSubProcessor.java:839)
+	at org.eclipse.jdt.internal.ui.text.correction.UnresolvedElementsSubProcessor.getTypeProposals(UnresolvedElementsSubProcessor.java:680)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.process(QuickFixProcessor.java:415)
+	at org.eclipse.jdt.internal.ui.text.correction.QuickFixProcessor.getCorrections(QuickFixProcessor.java:352)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionCollector.safeRun(JavaCorrectionProcessor.java:381)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.run(JavaCorrectionProcessor.java:341)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor$SafeCorrectionProcessorAccess.process(JavaCorrectionProcessor.java:336)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectCorrections(JavaCorrectionProcessor.java:465)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.collectProposals(JavaCorrectionProcessor.java:284)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionProcessor.computeQuickAssistProposals(JavaCorrectionProcessor.java:247)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant$ContentAssistProcessor.computeCompletionProposals(QuickAssistAssistant.java:71)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.lambda$0(ContentAssistant.java:2020)
+	at java.base/java.util.Collections$SingletonSet.forEach(Collections.java:4872)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$2.run(ContentAssistant.java:2019)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:2016)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:577)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.lambda$0(CompletionProposalPopup.java:507)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:502)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1830)
+	at org.eclipse.jface.text.quickassist.QuickAssistAssistant.showPossibleQuickAssists(QuickAssistAssistant.java:113)
+	at org.eclipse.jdt.internal.ui.text.correction.JavaCorrectionAssistant.showPossibleQuickAssists(JavaCorrectionAssistant.java:194)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:200)
+	at org.eclipse.jdt.internal.ui.javaeditor.JavaSelectAnnotationRulerAction.runWithEvent(JavaSelectAnnotationRulerAction.java:101)
+	at org.eclipse.ui.texteditor.AbstractRulerActionDelegate.runWithEvent(AbstractRulerActionDelegate.java:112)
+	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:281)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.ui.actions.ContributedAction.runWithEvent(ContributedAction.java:176)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.triggerAction(AbstractTextEditor.java:3030)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.lambda$0(AbstractTextEditor.java:3044)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4124)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3256)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3624)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY Activator 1 0 2021-07-08 16:37:57.808
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:37:57.809
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:37:58.521
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:37:58.671
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:46:00.802
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:46:00.856
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:46:02.143
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:46:02.147
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:46:36.356
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:46:36.358
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:46:36.998
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:46:37.006
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:54:54.094
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:54:54.095
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:54:54.313
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:54:54.316
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:54:54.390
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:54:54.400
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:54:54.461
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:54:54.468
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:54:59.680
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:54:59.682
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:54:59.777
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:54:59.809
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:00.092
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:00.093
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:00.179
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:00.183
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 16:55:00.405
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 16:55:00.406
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 16:55:00.407
+!MESSAGE buffering callback sts4.classpath.ZjMtbpmG cotacao-ronaldo false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 16:55:00.407
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG 1 batched events
+
+!ENTRY Activator 1 0 2021-07-08 16:55:00.414
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:00.416
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:01.411
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:01.756
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:01.763
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:01.869
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:01.895
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:01.978
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 16:55:02.412
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-07-08 16:55:02.413
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 16:55:02.415
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 16:55:02.424
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 16:55:02.430
+!MESSAGE buffering callback sts4.classpath.ZjMtbpmG cotacao-ronaldo false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 16:55:02.431
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG 1 batched events
+
+!ENTRY Activator 1 0 2021-07-08 16:55:03.423
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:03.436
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:03.476
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:03.780
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:03.781
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:03.783
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:04.091
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:04.095
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:04.127
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 16:55:04.436
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-07-08 16:55:04.437
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 16:55:04.438
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 16:55:04.445
+!MESSAGE classpath=67 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 16:55:04.450
+!MESSAGE buffering callback sts4.classpath.ZjMtbpmG cotacao-ronaldo false 67
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 16:55:04.451
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG 1 batched events
+
+!ENTRY Activator 1 0 2021-07-08 16:55:04.511
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:04.537
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:04.566
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:04.587
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:04.626
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-08 16:55:04.645
+!MESSAGE executing callback sts4.classpath.ZjMtbpmG SUCCESS [done]
+
+!ENTRY Activator 1 0 2021-07-08 16:55:05.354
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:05.355
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 16:55:05.355
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 17:03:37.895
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 17:03:37.898
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:03:37.901
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:03:38.249
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:03:38.249
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:03:38.250
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 17:04:21.602
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:04:21.604
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:04:21.606
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 17:04:22.234
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:04:22.243
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 17:04:22.247
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:05:16.827
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:05:16.828
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:05:16.839
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 17:05:17.479
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:05:17.481
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 17:05:17.484
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:12:57.751
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 17:12:57.840
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:12:57.842
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:12:59.472
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:12:59.482
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:12:59.589
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:12:59.669
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:12:59.709
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 17:13:02.010
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 17:13:02.011
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:13:02.053
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY org.eclipse.lsp4e 4 0 2021-07-08 17:13:07.275
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:94)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:216)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-07-08 17:13:47.718
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY Activator 1 0 2021-07-08 17:14:12.706
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:14:12.707
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 17:14:12.707
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:14:13.645
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:14:13.662
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:14:13.679
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 17:14:35.860
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:14:35.861
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 17:14:35.862
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:14:36.560
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:14:36.586
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:14:36.615
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 17:15:37.861
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:15:37.863
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:15:37.864
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 17:15:38.528
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:15:38.545
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:15:38.582
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 17:15:48.770
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:15:48.771
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:15:48.771
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 17:15:49.714
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-08 17:15:49.794
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-08 17:15:49.795
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+!SESSION 2021-07-09 14:18:31.715 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-07-09 14:19:36.614
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-09 14:19:36.614
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@54f9326c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5016f1a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-09 14:19:57.152
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Pessoal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Activator 1 0 2021-07-09 14:20:41.882
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-09 14:20:41.925
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-09 14:20:41.942
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-09 14:21:08.719
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY org.eclipse.ui 2 2 2021-07-09 15:20:50.424
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2021-07-09 15:21:06.295 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-07-09 15:21:47.139
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-09 15:21:47.139
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@414d2821,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7378c4a4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-09 15:22:08.136
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Pessoal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Activator 1 0 2021-07-09 15:22:24.835
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-09 15:22:24.902
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-09 15:22:24.984
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-09 15:22:40.673
+!MESSAGE Has main method computation for project 'API-EstacaoMeteorologica'
+
+!ENTRY Activator 1 0 2021-07-09 15:22:40.686
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-09 15:27:13.777
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-09 15:27:13.786
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-09 15:27:17.798
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-09 15:27:17.804
+!MESSAGE Has main method computation for project 'AvaliacaoRonaldo'
+
+!ENTRY Activator 1 0 2021-07-09 15:27:20.162
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-09 15:27:22.193
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-09 15:27:52.259
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY Activator 1 0 2021-07-09 15:27:58.418
+!MESSAGE Has main method computation for project 'cotacao-ronaldo'
+
+!ENTRY org.eclipse.ui 2 2 2021-07-09 15:56:11.525
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-09 15:59:43.739
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-09 15:59:43.741
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@661b19e2[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=559)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-09 15:59:44.459
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-09 15:59:48.016
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-09 16:01:30.689
+!MESSAGE Boot LS startup time from start to initialized: 105739ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-09 16:01:33.373
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fQBiCjlJisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-09 16:01:33.672
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-09 16:01:33.683
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-09 16:01:33.687
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-09 16:01:33.690
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.fQBiCjlJ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-09 16:01:33.692
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-09 16:01:33.722
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-09 16:01:33.723
+!MESSAGE buffering callback sts4.classpath.fQBiCjlJ nome false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-09 16:01:33.725
+!MESSAGE executing callback sts4.classpath.fQBiCjlJ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-09 16:01:35.730
+!MESSAGE executing callback sts4.classpath.fQBiCjlJ FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2021-07-09 16:01:35.732
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1956)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2091)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-09 16:03:48.881
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-09 16:03:48.890
+!MESSAGE buffering callback sts4.classpath.fQBiCjlJ nome true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-09 16:03:48.892
+!MESSAGE executing callback sts4.classpath.fQBiCjlJ 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-07-09 16:03:49.066
+!MESSAGE executing callback sts4.classpath.fQBiCjlJ SUCCESS [done]
+!SESSION 2021-07-09 16:15:17.881 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-07-09 16:15:24.848
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface 2 0 2021-07-09 16:15:52.585
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-07-09 16:15:52.585
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@a30dbc0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@76104df5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-09 16:16:19.660
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Pessoal'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

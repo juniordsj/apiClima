@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\workspace\\API-EstacaoMeteorologica\\.git;
-GitRepositoriesView.GitDirectories.relative=API-EstacaoMeteorologica\\.git;
+GitRepositoriesView.GitDirectories=C\:\\workspace\\.git;C\:\\workspace\\API-EstacaoMeteorologica\\.git;C\:\\Users\\Pessoal\\Desktop\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;API-EstacaoMeteorologica\\.git;C\:\\Users\\Pessoal\\Desktop\\.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
